@@ -119,6 +119,24 @@ html, body {
 	color: #9AA6CE;
 	font-weight: bold;
 }
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////*/
+/*main body*/
+.dash-body {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+.side-bar {
+	height: 100vh;
+	width: 25%;
+	background: red;
+}
+/*main body*/
+/*//////////////////////////////////////////////////////////////////////////////////////////////*/
 /*[ MARGIN ]*/
 .mr-auto, .mx-auto, .m-auto {margin-right: auto;}.ml-auto, .mx-auto, .m-auto {margin-left: auto;}.mt-auto, .my-auto, .m-auto {margin-top: auto;}.mb-auto, .my-auto, .m-auto {margin-bottom: auto;}
 .mt-0, .my-0, .m-0 {margin-top: 0px!important;}.mt-1, .my-1, .m-1 {margin-top: 1px!important;}.mt-2, .my-2, .m-2 {margin-top: 2px!important;}.mt-3, .my-3, .m-3 {margin-top: 3px!important;}.mt-4, .my-4, .m-4 {margin-top: 4px!important;}.mt-5, .my-5, .m-5 {margin-top: 5px!important;}.mt-6, .my-6, .m-6 {margin-top: 6px!important;}.mt-7, .my-7, .m-7 {margin-top: 7px!important;}.mt-8, .my-8, .m-8 {margin-top: 8px!important;}.mt-9, .my-9, .m-9 {margin-top: 9px!important;}.mt-10, .my-10, .m-10 {margin-top: 10px!important;}
