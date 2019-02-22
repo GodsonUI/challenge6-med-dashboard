@@ -435,6 +435,7 @@ margin-bottom: 0;
 }
 .patient-contact h4 {
 	color: #ADAEB4;
+	font-weight: 400;
 	font-size: 15px;
 }
 .card-info {
@@ -454,9 +455,84 @@ margin-bottom: 0;
 }
 .empty-card {
 	border: 2px dashed #A9B3D2;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	flex-direction: column;
+}
+.empty-card img {
+	height: 45px;
+	width: auto;
+}
+.empty-card h4 {
+	color: #A9B3D2;
+	font-size: 15px;
+	font-weight: 400;
 }
 .fill-card {
 	background: #fff;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.contact-btn {
+	width: 75%;
+	height: auto;
+	/*background: black;*/
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-around;
+	-ms-align-items: center;
+	align-items: center;
+}
+.contact-btn img {
+	height: 41px;
+	width: 41px;
+	border-radius: 50%;
+	overflow: hidden;
+	
+}
+.card:hover {
+	cursor: pointer;
+}
+.contact-top h2, p{
+	text-align: center;
+}
+.contact-top h2{
+	color: #434B65;
+	font-size: 22px;
+}
+.contact-top p{
+	color: #ADAEB4;
+	font-size: 15px;
+}
+.contact-img img {
+	height: all;
+	width: 65px;
+	border-radius: 50%;
+}
+.contact-img {
+	width: 100%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
 }
 .patient-diagnoses {
 	height: 12rem;
