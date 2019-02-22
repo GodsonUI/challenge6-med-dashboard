@@ -570,15 +570,54 @@ margin-bottom: 0;
 	flex-direction: row;
 }
 .diagnoses-note {
-	height: 100px;
+	height: 135px;
 	width: 48%;
-	background: black;
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
 	justify-content: space-between;
+
+}
+.note {
+	width: 93%;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+	background: #fff;
+	-ms-align-self: stretch;
+	align-self: stretch;
+	padding: 7px;
+}
+.option {
+	border-bottom-right-radius: 10px;
+	width: 7%;
+	border-top-right-radius:  10px;
+	padding-top: 1rem;
+	background: #fff;
+	-ms-align-self: stretch;
+	align-self: stretch;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	-ms-align-items: center;
+	align-items: center;
+}
+.dark-btn {
+	height: 4px;
+	width:  4px;
+	border-radius: 50%;
+	background: #515D78;
+}
+.dark-btn:hover {
+	cursor: pointer;
 }
 /*main body*/
 /*//////////////////////////////////////////////////////////////////////////////////////////////*/
