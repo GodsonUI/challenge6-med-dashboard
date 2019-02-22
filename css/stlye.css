@@ -440,7 +440,7 @@ margin-bottom: 0;
 }
 .card-info {
 	height: 20rem;
-	width: 48rem;
+	width: 51rem;
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
@@ -450,7 +450,7 @@ margin-bottom: 0;
 }
 .card {
 	height: 90%;
-	width: 14rem;
+	width: 15.5rem;
 	border-radius: 10px;
 }
 .empty-card {
@@ -487,7 +487,7 @@ margin-bottom: 0;
 	flex-direction: column;
 }
 .contact-btn {
-	width: 75%;
+	width: 90%;
 	height: auto;
 	/*background: black;*/
 	display: -webkit-flex;
@@ -504,7 +504,15 @@ margin-bottom: 0;
 	width: 41px;
 	border-radius: 50%;
 	overflow: hidden;
-	
+}
+.contact-note {
+	padding: 12px;
+}
+.contact-note p {
+	color: #ADAEB4;
+	font-size: 13px;
+	line-height: 1.6;
+	letter-spacing: .7px;
 }
 .card:hover {
 	cursor: pointer;
@@ -514,7 +522,7 @@ margin-bottom: 0;
 }
 .contact-top h2{
 	color: #434B65;
-	font-size: 22px;
+	font-size: 19px;
 }
 .contact-top p{
 	color: #ADAEB4;
