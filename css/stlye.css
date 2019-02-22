@@ -97,8 +97,8 @@ html, body {
 	align-items: center;
 }
 .profile-avatar {
-	height: 50px;
-	width:  50px;
+	height: 45px;
+	width:  45px;
 	border-radius: 50%;
 	overflow: hidden;
 }
@@ -119,6 +119,7 @@ html, body {
 	color: #9AA6CE;
 	font-weight: bold;
 }
+
 
 /*//////////////////////////////////////////////////////////////////////////////////////////////*/
 /*main body*/
@@ -225,10 +226,11 @@ margin-bottom: 0;
 }
 .patience-wrap {
 	height: 100%;
-	width: 100%;
-	padding-left: 1.7rem;
-	padding-right: 1.7rem;
+	width: auto;
+	padding-left: 1.9rem;
+	padding-right: 1.9rem;
 	/*background: red;*/
+	overflow: hidden;
 	overflow-y: scroll;
 	scrollbar-color: #A9B3D2 #fff;
   scrollbar-width: thin;
@@ -247,20 +249,84 @@ margin-bottom: 0;
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
+	padding-left: 5px;
+	padding-right: 5px;
 	-ms-align-items: baseline;
 	align-items: baseline;
 	justify-content: space-between;
 }
 .patience-list {
 	height: 100%;
-	background: red;
+	/*background: red;*/
+
 }
-.patience-info {
+.patience-info li{
+	list-style: none;
+	margin-bottom: 5px;
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
+	flex-direction: column;
+	-webkit-transition: all 0.3s!important;
+  -o-transition: all 0.3s!important;
+  -moz-transition: all 0.3s!important;
+  transition: all 0.3s!important;
+}
+.patience-info li:hover {
+	background: #F4F7FC;
+	border-radius: 4.5px;
+	cursor: pointer;
+	-webkit-transition: all 0.3s!important;
+  -o-transition: all 0.3s!important;
+  -moz-transition: all 0.3s!important;
+  transition: all 0.3s!important;
+}
+.profile {
+	height: 60px;
+	padding: 5px;
+	/*background: red;*/
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	-ms-align-items: center;
+	align-items: center;
+}
+.patient-avatar {
+	background: linear-gradient(180deg, #A26FED 0%, #EE86BF 100%);
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	color: #fff;
+}
+.patient-avatar h2 {
+	font-size: 1.2rem;
+}
+.patient-avatar-j{
+	opacity: 0.8;
+	background: linear-gradient(180deg, #A26FED 0%, #EE86BF 100%);
+}
+.profile-quick-info {
+	/*background: red;*/
+	height: auto;
+	width: auto;
+}
+.profile-quick-info h4 {
+	color: #434B65;
+	line-height: 1.6;
+}
+.profile-quick-info p {
+	color: #ADAEB4;
+	font-size: 12px;
 }
 /*main body*/
 /*//////////////////////////////////////////////////////////////////////////////////////////////*/
