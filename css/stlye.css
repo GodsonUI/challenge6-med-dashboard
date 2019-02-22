@@ -558,7 +558,7 @@ margin-bottom: 0;
 	display: flex;
 	justify-content: space-between;
 }
-.patient-diagnoses p {
+.patient-diagnoses {
 	color: #ADAEB4;
 	font-weight: 400;
 	font-size: 15px;
@@ -567,7 +567,12 @@ margin-bottom: 0;
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
+}
+.patient-diagnoses p {
+	color: #ADAEB4;
+	font-weight: 400;
+	font-size: 15px;
 }
 .diagnoses-note {
 	height: 135px;
@@ -588,9 +593,23 @@ margin-bottom: 0;
 	border-bottom-left-radius: 10px;
 	border-top-left-radius: 10px;
 	background: #fff;
-	-ms-align-self: stretch;
-	align-self: stretch;
 	padding: 7px;
+	padding: 1rem;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+}
+.note .p-note {
+	line-height: 1.6!important;
+	color: #434B65!important;
+	font-size: 13.80px!important;
+	align-self: baseline;
+}
+.note .note-date {
+	align-content: flex-end;	
 }
 .option {
 	border-bottom-right-radius: 10px;
