@@ -226,7 +226,7 @@ margin-bottom: 0;
 	padding-left: 1.9rem;
 	padding-right: 1.9rem;
 	/*background: red;*/
-	overflow: hidden;
+	/*overflow: hidden;*/
 	overflow-y: scroll;
 	scrollbar-color: #A9B3D2 #fff;
   scrollbar-width: thin;
@@ -642,6 +642,124 @@ margin-bottom: 0;
 .dark-btn:hover {
 	cursor: pointer;
 }
+/*==============================================*/
+.table-view {
+	height: 33rem;
+	padding-left: 3rem;
+	padding-right: 3rem;
+	padding-top: 10px;
+	width: 55rem;
+	overflow-y: scroll;
+	/*background: black;*/
+	scrollbar-color: #A9B3D2 #E5E5E5;
+  scrollbar-width: thin;
+}
+.responsive-table li {
+  border-radius: 7px;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.responsive-table .table-header {
+  /*background-color: #95A5A6;*/
+  font-size: 14px;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.responsive-table .table-row {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+}
+
+.responsive-table .col-1 {
+  flex-basis: 10%;
+}
+
+.responsive-table .col-2 {
+  flex-basis: 20%;
+}
+
+.responsive-table .col-3 {
+  flex-basis: 20%;
+}
+
+.responsive-table .col-4 {
+  flex-basis: 20%;
+}
+.responsive-table .col-5 {
+  flex-basis: 20%;
+}
+.responsive-table .col-6 {
+  flex-basis: 10%;
+}
+.checkb {
+	display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 25px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.checkb input{
+	position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: transparent;
+  border: 1px solid #A9B3D2;
+  border-radius: 3px;
+}
+
+.checkb:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.checkb input:checked ~ .checkmark {
+  border: 1px solid #A9B3D2;
+  background-color: #008EFF;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.checkb input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.checkb .checkmark:after {
+  left: 5px;
+  top: 1.05px;
+  width: 6px;
+  height: 13px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
+/*==============================================*/
+
 /*main body*/
 /*//////////////////////////////////////////////////////////////////////////////////////////////*/
 /*[ MARGIN ]*/
