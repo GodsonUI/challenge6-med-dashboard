@@ -146,10 +146,6 @@ html, body {
 	flex-direction: row;
 }
 
-.info-section {
-	height: 100vh;
-	width: 75%;
-}
 .icon-nav {
 	height: inherit;
 	width: 20%;
@@ -352,6 +348,29 @@ margin-bottom: 0;
   -o-transition: all 0.3s!important;
   -moz-transition: all 0.3s!important;
   transition: all 0.3s!important;
+}
+
+.info-section {
+	height: 100vh;
+	width: 75%;
+	background: red;
+	overflow-y: hidden;
+}
+.info-top {
+	height: 14rem;
+	width: auto;
+	background: green;
+}
+
+.info-about {
+	height: 20rem;
+	width: auto;
+	background: black;
+}
+.info-footer {
+	height: 15rem;
+	width: auto;
+	background: green;
 }
 /*main body*/
 /*//////////////////////////////////////////////////////////////////////////////////////////////*/
