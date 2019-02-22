@@ -513,18 +513,17 @@ margin-bottom: 0;
 	font-size: 13px;
 	line-height: 1.6;
 	letter-spacing: .7px;
+	text-align: center;
 }
 .card:hover {
 	cursor: pointer;
-}
-.contact-top h2, p{
-	text-align: center;
 }
 .contact-top h2{
 	color: #434B65;
 	font-size: 19px;
 }
 .contact-top p{
+	text-align: center;
 	color: #ADAEB4;
 	font-size: 15px;
 }
@@ -544,9 +543,42 @@ margin-bottom: 0;
 }
 .patient-diagnoses {
 	height: 12rem;
-	padding-left: 1rem;
+	padding-left: 3rem;
+	padding-right: 3rem;
+	padding-top: 10px;
 	width: auto;
-	background: red;
+}
+.diagnose-wrap {
+	height: 20rem;
+	width: 51rem;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+.patient-diagnoses p {
+	color: #ADAEB4;
+	font-weight: 400;
+	font-size: 15px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+}
+.diagnoses-note {
+	height: 100px;
+	width: 48%;
+	background: black;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
 }
 /*main body*/
 /*//////////////////////////////////////////////////////////////////////////////////////////////*/
