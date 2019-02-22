@@ -588,6 +588,10 @@ margin-bottom: 0;
 	justify-content: space-between;
 
 }
+.main-nav a {
+	text-decoration: none;
+	color: #008EFF;
+}
 .note {
 	width: 93%;
 	border-bottom-left-radius: 10px;
