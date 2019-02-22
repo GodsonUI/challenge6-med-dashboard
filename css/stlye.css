@@ -425,10 +425,24 @@ margin-bottom: 0;
 	cursor: pointer;
 }
 
-.patient-contant {
+.patient-contact {
 	height: 20rem;
-	padding-left: 1rem;
+	padding-left: 3rem;
+	padding-right: 3rem;
 	width: auto;
+	border: 1px dotted black;
+}
+.patient-contact h4 {
+	color: #ADAEB4;
+	font-size: 15px;
+}
+.card-info {
+	height: 5rem;
+	width: auto;
+	background: red;
+}
+.card {
+	
 }
 .patient-diagnoses {
 	height: 15rem;
