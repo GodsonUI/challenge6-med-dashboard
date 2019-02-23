@@ -988,6 +988,7 @@ margin-bottom: 0;
     margin-right: 5px;
     color: #ADAEB4;
     border-right: 1px solid #A9B3D2;
+    border-bottom: none;
 }
 .th>span {
     width: 100%;
@@ -1011,7 +1012,7 @@ margin-bottom: 0;
     color: #999;
 }
 /* Weekends */
-/*.th>span:first-child, .th>span:last-child, .week>div:first-child, .week>div:last-child {background:#f3f3f3}*/
+.th>span, .th>span {border-right: none;}
 .th>span:last-child, .week>div:last-child {margin-right:0}
 .th>span:last-child, .bottom-week>div:last-child {margin-right:0}
 .bottom-week div{
@@ -1019,6 +1020,12 @@ margin-bottom: 0;
 }
 .bottom-week {
   flex: 30px 1 0;
+}
+.week>div:last-child {
+	border-right: none;
+}
+.bottom-week>div:last-child {
+	border-right: none;
 }
 /*==============================================*/
 
