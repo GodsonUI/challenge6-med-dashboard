@@ -693,15 +693,15 @@ margin-bottom: 0;
 
 }
 .responsive-table .col-1 {
-  flex-basis: 10%;
+  flex-basis: 7%;
 }
 
 .responsive-table .col-2 {
-  flex-basis: 15%;
+  flex-basis: 14%;
 }
 
 .responsive-table .col-3 {
-  flex-basis: 30%;
+  flex-basis: 34%;
 }
 
 .responsive-table .col-4 {
@@ -775,7 +775,88 @@ margin-bottom: 0;
   transform: rotate(45deg);
 }
 
-
+.extended {
+	height: 11rem;
+	background: #fff;
+	margin-top: -1rem;
+	border-top-right-radius: 0px!important;
+	border-top-left-radius: 0px!important;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: flex-start!important;
+	flex-direction: column;
+}
+.extend {
+	border-bottom-left-radius: 0px!important;
+}
+.extended-info {
+	/*background: red;*/
+	height: 6rem;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+}
+.extended-icons {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.extended-icons img {
+	height: 20px;
+	width: 20px;
+	overflow: hidden;
+	border-radius: 50%;
+}
+.extended-btns {
+	height: 3rem;
+	width: 85%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	-ms-align-items: center;
+	align-items: flex-end;
+}
+.extended-span {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-left: 2rem;
+	color: #9AA6CE;
+}
+.extended-btn {
+	background: #43ACFF;
+	border: 1px solid #43ACFF;
+	opacity: 0.9;
+	color: #FFFFFF;
+	font-size: 15px;
+	padding: 8px 10px;
+	box-shadow: 0px 2.25087px 6.7526px rgba(77, 77, 86, 0.05);
+	border-radius: 4.50173px;
+	font-weight: bold;
+}
+.extended-btn span {
+	font-weight: normal;
+}
+.extended-btn:hover {
+	cursor: pointer;
+}
 /*==============================================*/
 
 /*main body*/
