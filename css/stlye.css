@@ -856,6 +856,17 @@ margin-bottom: 0;
 .extended-btn:hover {
 	cursor: pointer;
 }
+.calendar-view {
+	height: 15rem;
+	width: 95%;
+	background: #fff;
+	border-radius: 10px;
+}
+.calendar-wrap {
+	padding-left: 3rem;
+	padding-right: 3rem;
+	padding-top: 10px;
+}
 /*==============================================*/
 
 /*main body*/
