@@ -681,7 +681,17 @@ margin-bottom: 0;
   color: #9AA6CE;
   box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
 }
+.table-row a {
+	text-decoration: none;
+	width: 100%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	color: #9AA6CE;
 
+}
 .responsive-table .col-1 {
   flex-basis: 10%;
 }
@@ -695,13 +705,13 @@ margin-bottom: 0;
 }
 
 .responsive-table .col-4 {
-  flex-basis: 20%;
+  flex-basis: 22%;
 }
 .responsive-table .col-5 {
-  flex-basis: 15%;
+  flex-basis: 18%;
 }
 .responsive-table .col-6 {
-  flex-basis: 10%;
+  flex-basis: 3%;
 }
 .checkb {
 	display: block;
